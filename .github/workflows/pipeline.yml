@@ -1,6 +1,6 @@
 
 name: Movies CI/CD Pipeline
-run-name: Krufe
+run-name: Krufe22
 on:
   push:
     branches: [ "main" ]
