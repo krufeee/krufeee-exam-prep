@@ -42,6 +42,6 @@ jobs:
         - name: Render Deploy Action
           uses: johnbeynon/render-deploy-action@v0.0.8
           with:
-            service-id: WEB_HOOK
-            api-key: WEB_SERVICE
+            service-id: ${{ secrets.WEB_HOOK }}
+            api-key: ${{ secrets.WEB_SERVICE }}
     
