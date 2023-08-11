@@ -33,7 +33,6 @@ jobs:
       run: npm run test:unit
     - name: Displaying my username
       run: echo "Krufeee"
-
   deploy:
         needs: build
         runs-on: ubuntu-latest
